@@ -25,7 +25,7 @@ I'm looking for new opportunities to improve my skills. I'm at the beginning of 
 ### SKILLS
 
 - HTML, CSS3, Bootstrap
-- JavaScript Basics
+- JavaScript, React Basics
 - Git/GitHub, VS Code, Chrome Developer Tools
 - Figma, Photoshop
 
@@ -50,3 +50,37 @@ _Finish the solution so that it returns the sum of all the multiples of 3 or 5 b
         }
         return sum;
     }
+
+### EXPIRIENCE
+
+- [SheCodes](https://www.shecodes.io/graduates/41798-viktoriia-basko) courses (Basics, Plus, Responsive and React);
+- [freeCodeCamp](https://www.freecodecamp.org/) (Responsive Web Design and JavaScript Algorithms in progress);
+- RS Schools Course «JavaScript/Front-end. Stage 0» (in progress);
+- JavaScript Manual on [learnjavascript.ru](https://learn.javascript.ru/) (in progress).
+
+### PROJECTS
+
+Dictionary App (React)
+
+- [Demo](https://aesthetic-moxie-be5ef7.netlify.app/)
+- [GitHub](https://github.com/VBasko/dictionary-project)
+
+Weather App (React)
+
+- [Demo](https://fabulous-stardust-18ad11.netlify.app/)
+- [GitHub](https://github.com/VBasko/weather-react-simple)
+
+Weather App (Vanilla JS)
+
+- [Demo](https://heartfelt-sprite-72d3b3.netlify.app/)
+- [GitHub](https://github.com/VBasko/WeatherApp)
+
+Portfolio Project (Vanilla JS)
+
+- [Demo](https://sprightly-malabi-202f95.netlify.app/)
+- [GitHub](https://github.com/VBasko/Portfolio-project)
+
+Admin Dashboard
+
+- [Demo](https://aesthetic-moxie-be5ef7.netlify.app/)
+- [GitHub](https://github.com/VBasko/ResponsiveAdminDashboard)
