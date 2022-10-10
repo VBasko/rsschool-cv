@@ -84,3 +84,15 @@ Admin Dashboard
 
 - [Demo](https://aesthetic-moxie-be5ef7.netlify.app/)
 - [GitHub](https://github.com/VBasko/ResponsiveAdminDashboard)
+
+### EDUCATION
+
+- Higher School of Economics
+
+  Master's degree in Mathematics (Number Theory)  
+   2019 - 2021
+
+- Financial University under the Government of the Russian Federation
+
+  Bachelor's degree in Economics (Banking and Financial markets)  
+   2015 - 2019
