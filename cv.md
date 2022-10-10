@@ -96,3 +96,9 @@ Admin Dashboard
 
   **Bachelor's degree in Economics** (Banking and Financial markets)  
    2015 - 2019
+
+### LANGUAGES
+
+- English - Intermediate (Quick EF Set test 79%);
+- Russian - Native;
+- Ukrainian - Native.
