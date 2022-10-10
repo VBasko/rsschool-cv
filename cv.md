@@ -89,10 +89,10 @@ Admin Dashboard
 
 - Higher School of Economics
 
-  Master's degree in Mathematics (Number Theory)  
+  **Master's degree in Mathematics** (Number Theory)  
    2019 - 2021
 
 - Financial University under the Government of the Russian Federation
 
-  Bachelor's degree in Economics (Banking and Financial markets)  
+  **Bachelor's degree in Economics** (Banking and Financial markets)  
    2015 - 2019
