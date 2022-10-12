@@ -40,7 +40,7 @@ body {
 }
 
 .header {
-  padding-top: 50px;
+  padding-top: 25px;
 }
 
 .personal-info {
@@ -163,4 +163,27 @@ li:not(:last-child) {
 
 .project-item a:not(:last-child) {
   margin-right: 20px;
+}
+
+footer {
+  background-color: #f6f8fa;
+  padding: 25px 0;
+}
+
+.flex,
+.github a {
+  display: flex;
+  align-items: center;
+}
+
+.flex {
+  justify-content: space-between;
+}
+
+.flex > *:not(:last-child) {
+  margin-right: 20px;
+}
+
+.github img {
+  margin-right: 10px;
 }
