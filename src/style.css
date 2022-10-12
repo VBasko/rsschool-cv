@@ -126,12 +126,22 @@ a:hover {
   text-decoration: underline;
 }
 
-.skills-list,
-.education-list {
+ul {
   padding-left: 24px;
 }
 
-.skill-item,
-.education-item {
+li {
   padding-left: 24px;
+}
+
+li:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.education-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.courses-list {
+  margin-bottom: 20px;
 }
