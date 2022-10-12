@@ -33,7 +33,7 @@ body {
   height: 264px;
   border-radius: 50%;
   overflow: hidden;
-  background-image: url(/images/my-photo.jpg);
+  background-image: url(../images/my-photo.jpg);
   background-position: center;
   background-size: cover;
   margin: 0 auto;
@@ -115,14 +115,14 @@ p.with-icon::before {
 }
 
 p.icon-phone::before {
-  content: url(/images/phone.svg);
+  content: url(../images/phone.svg);
 }
 
 p.icon-mail::before {
-  content: url(/images/mail.svg);
+  content: url(../images/mail.svg);
 }
 p.icon-linkedin::before {
-  content: url(/images/linkedin.svg);
+  content: url(../images/linkedin.svg);
 }
 
 a {
