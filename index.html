@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="description"
+      content="Resume of Viktoriia Basko, Junior Frontend Developer based in Georgia"
+    >
+    <link rel="stylesheet" href="src/style.css">
+    <title>CV. Basko Viktoriia</title>
+  </head>
+  <body>
+    <header class="header grid grid-row container">
+      <section>
+        <div class="photo">
+          <h2>photo</h2>
+        </div>
+      </section>
+      <section class="personal-info">
+        <h1>Viktoriia Basko</h1>
+        <h2>Frontend Developer</h2>
+        <p class="location">Batumi, Georgia</p>
+        <p class="additional">*Ready to work remotely</p>
+      </section>
+    </header>
+    <main class="main container">
+      <div class="grid grid-row">
+        <section class="contact">
+          <h2>CONTACTS</h2>
+          <p class="with-icon icon-phone">
+            <a href="tel:+995595093485">+995&nbsp;595&nbsp;09&nbsp;34&nbsp;85</a>
+          </p>
+          <p class="with-icon icon-mail">
+            <a href="mailto:vvbasko@outlook.com">vvbasko@outlook.com</a>
+          </p>
+          <p class="with-icon icon-linkedin">
+            <a href="https://www.linkedin.com/in/vbasko/" target="_blank"
+              >Linkedin</a
+            >
+          </p>
+        </section>
+        <section class="summary">
+          <h2>SUMMARY</h2>
+          <p>
+            I'm looking for new opportunities to improve my skills. I’m at the
+            beginning of my professional path but I really enjoy the process.
+            Have basic knowledge in HTML, CSS, JavaScript, API integration and
+            adaptive layouts. Love mathematics and would like to apply all of my
+            skills to make my projects in my best.
+          </p>
+        </section>
+      </div>
+      <div class="grid grid-row">
+        <div class="grid-column grid-column-left">
+          <section class="skills">
+            <h2>SKILLS</h2>
+            <ul class="skills-list">
+              <li class="skill-item">HTML, CSS3, Bootstrap</li>
+              <li class="skill-item">JavaScript, React Basics</li>
+              <li class="skill-item">Git/GitHub</li>
+              <li class="skill-item">VS Code, Chrome Dev. Tools</li>
+              <li class="skill-item">Figma, Photoshop</li>
+            </ul>
+          </section>
+          <section class="education">
+            <h2>EDUCATION</h2>
+            <ul class="education-list">
+              <li class="education-item">
+                <p>2019 - 2021</p>
+                <p class="medium">
+                  Master's degree in Mathematics <br>
+                  (Number Theory)
+                </p>
+                <p>Higher School of Economics</p>
+              </li>
+              <li class="education-item">
+                <p>2015 - 2019</p>
+                <p class="medium">
+                  Bachelor's degree in Economics <br>
+                  (Banking and Financial markets)
+                </p>
+                <p>
+                  Financial University under the Government of the Russian
+                  Federation
+                </p>
+              </li>
+            </ul>
+          </section>
+          <section class="courses">
+            <h2>COURSES</h2>
+            <ul class="courses-list">
+              <li class="course-item">
+                <a
+                  href="https://www.shecodes.io/graduates/41798-viktoriia-basko"
+                  target="_blank"
+                  >SheCodes </a
+                >courses (Basics, Plus, Responsive and React)
+              </li>
+              <li class="course-item">
+                <a href="https://www.freecodecamp.org/" target="_blank"
+                  >freeCodeCamp*</a
+                >
+                (Responsive Web Design and JavaScript Algorithms)
+              </li>
+              <li class="course-item">
+                RS School Course «JavaScript/Front-end. Stage 0»*
+              </li>
+              <li class="course-item">
+                <a href="https://learn.javascript.ru/" target="_blank"
+                  >JavaScript Manual*</a
+                >
+              </li>
+            </ul>
+            <p class="additional">*in progress</p>
+          </section>
+          <section class="languages no-divider">
+            <h2>Languages</h2>
+            <ul class="languages-list">
+              <li class="language-item">English - Intermediate</li>
+              <li class="language-item">Russian - Native</li>
+              <li class="language-item">Ukrainian - Native</li>
+            </ul>
+          </section>
+        </div>
+        <div class="grid-column grid-column-right">
+          <section class="code-example">
+            <h2>CODE EXAMPLE</h2>
+            <p>
+              <span class="medium">Multiples of 3 or 5</span> kata from
+              Codewars:
+            </p>
+            <p>
+              If we list all the natural numbers below 10 that are multiples of
+              3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
+              <br>
+              Finish the solution so that it returns the sum of all the
+              multiples of 3 or 5 below the number passed in. Additionally, if
+              the number is negative, return 0 (for languages that do have
+              them).
+            </p>
+            <pre class="code">
+                <code>
+    function solution(number){
+        sum = 0;
+        if (number &lt; 0) {
+            return 0;
+        }
+
+        for (let i = 0; i &lt; number; i++) {
+            if (i % 3 == 0 || i % 5 == 0) {
+            sum += i;
+            }
+        }
+        return sum;
+    }</code>
+              </pre>
+          </section>
+          <section class="projects no-divider">
+            <h2>PROJECTS</h2>
+            <ul class="projects-list">
+              <li class="project-item">
+                <p class="medium">Dictionary App (React)</p>
+                <a
+                  href="https://aesthetic-moxie-be5ef7.netlify.app/"
+                  target="_blank"
+                  >Demo</a
+                >
+                <a
+                  href="https://github.com/VBasko/dictionary-project"
+                  target="_blank"
+                  >GitHub</a
+                >
+              </li>
+              <li class="project-item">
+                <p class="medium">Weather App (React)</p>
+                <a
+                  href="https://fabulous-stardust-18ad11.netlify.app/"
+                  target="_blank"
+                  >Demo</a
+                >
+                <a
+                  href="https://github.com/VBasko/weather-react-simple"
+                  target="_blank"
+                  >GitHub</a
+                >
+              </li>
+              <li class="project-item">
+                <p class="medium">Weather App (Vanilla JS)</p>
+                <a
+                  href="https://heartfelt-sprite-72d3b3.netlify.app/"
+                  target="_blank"
+                  >Demo</a
+                >
+                <a href="https://github.com/VBasko/WeatherApp" target="_blank"
+                  >GitHub</a
+                >
+              </li>
+              <li class="project-item">
+                <p class="medium">Portfolio Project (Vanilla JS)</p>
+                <a
+                  href="https://sprightly-malabi-202f95.netlify.app/"
+                  target="_blank"
+                  >Demo</a
+                >
+                <a
+                  href="https://github.com/VBasko/Portfolio-project"
+                  target="_blank"
+                  >GitHub</a
+                >
+              </li>
+              <li class="project-item">
+                <p class="medium">Admin Dashboard</p>
+                <a
+                  href="https://tangerine-mooncake-0f3cbe.netlify.app/"
+                  target="_blank"
+                  >Demo</a
+                >
+                <a
+                  href="https://github.com/VBasko/ResponsiveAdminDashboard"
+                  target="_blank"
+                  >GitHub</a
+                >
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container flex">
+        <div class="github">
+          <a href="https://github.com/VBasko/" target="_blank">
+            <img src="/images/github.svg" alt="github icon" height="32">
+            <p>Github</p>
+          </a>
+        </div>
+        <p class="year">&copy; 2022</p>
+        <div class="logo">
+          <a href="https://rs.school/js/" target="_blank">
+            <img src="/images/rs_school.svg" alt="rs school logo" height="32">
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
