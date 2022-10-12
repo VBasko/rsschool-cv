@@ -143,9 +143,15 @@ li:not(:last-child) {
 }
 
 .education-item:not(:last-child) {
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 .courses-list {
   margin-bottom: 20px;
+}
+
+.code {
+  margin-top: 20px;
+  background-color: #f6f8fa;
+  border-radius: 12px;
 }
