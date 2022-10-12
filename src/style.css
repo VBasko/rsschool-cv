@@ -8,7 +8,7 @@
 
 body {
   font-family: "Inter", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 300;
   line-height: 1.6;
 }
@@ -22,6 +22,10 @@ body {
   display: grid;
   grid-template-columns: 345px auto;
   gap: 135px;
+}
+
+.medium {
+  font-weight: 500;
 }
 
 .photo {
@@ -120,4 +124,14 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+.skills-list,
+.education-list {
+  padding-left: 24px;
+}
+
+.skill-item,
+.education-item {
+  padding-left: 24px;
 }
