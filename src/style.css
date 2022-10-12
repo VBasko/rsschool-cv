@@ -142,7 +142,8 @@ li:not(:last-child) {
   margin-bottom: 8px;
 }
 
-.education-item:not(:last-child) {
+.education-item:not(:last-child),
+.project-item:not(:last-child) {
   margin-bottom: 25px;
 }
 
@@ -154,4 +155,12 @@ li:not(:last-child) {
   margin-top: 20px;
   background-color: #f6f8fa;
   border-radius: 12px;
+}
+
+.project-item a {
+  display: inline-block;
+}
+
+.project-item a:not(:last-child) {
+  margin-right: 20px;
 }
