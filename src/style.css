@@ -90,6 +90,10 @@ section::after {
   position: absolute;
 }
 
+section.no-divider::after {
+  display: none;
+}
+
 p.with-icon {
   padding-left: 55px;
 }
