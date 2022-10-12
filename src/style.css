@@ -33,7 +33,7 @@ body {
   height: 264px;
   border-radius: 50%;
   overflow: hidden;
-  background-image: url(./images/my-photo.jpg);
+  background-image: url(../images/my-photo.jpg);
   background-position: center;
   background-size: cover;
   margin: 0 auto;
