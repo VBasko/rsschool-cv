@@ -20,7 +20,7 @@ body {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(2, auto);
+  grid-template-columns: 345px auto;
   gap: 135px;
 }
 
@@ -57,6 +57,7 @@ h2 {
   text-transform: uppercase;
   line-height: 1.3;
   font-weight: 500;
+  margin-bottom: 32px;
 }
 
 .personal-info h2 {
@@ -65,4 +66,58 @@ h2 {
 
 .additional {
   font-size: 14px;
+}
+
+section {
+  position: relative;
+  padding: 48px 0;
+}
+
+header section {
+  padding-bottom: 20px;
+}
+
+section::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  bottom: 0;
+  position: absolute;
+}
+
+p.with-icon {
+  padding-left: 55px;
+}
+
+p.with-icon:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+p.with-icon::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 32px;
+  width: 32px;
+}
+
+p.icon-phone::before {
+  content: url(/images/phone.svg);
+}
+
+p.icon-mail::before {
+  content: url(/images/mail.svg);
+}
+p.icon-linkedin::before {
+  content: url(/images/linkedin.svg);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
