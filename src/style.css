@@ -39,6 +39,10 @@ body {
   margin: 0 auto;
 }
 
+.photo h2 {
+  display: none;
+}
+
 .header {
   padding-top: 25px;
 }

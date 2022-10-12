@@ -14,7 +14,9 @@
   <body>
     <header class="header grid grid-row container">
       <section>
-        <div class="photo"></div>
+        <div class="photo">
+          <h2>photo</h2>
+        </div>
       </section>
       <section class="personal-info">
         <h1>Viktoriia Basko</h1>
@@ -142,11 +144,11 @@
                 <code>
     function solution(number){
         sum = 0;
-        if (number < 0) {
+        if (number &lt; 0) {
             return 0;
         }
 
-        for (let i = 0; i < number; i++) {
+        for (let i = 0; i &lt; number; i++) {
             if (i % 3 == 0 || i % 5 == 0) {
             sum += i;
             }
