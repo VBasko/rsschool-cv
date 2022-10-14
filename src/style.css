@@ -28,6 +28,24 @@ body {
   font-weight: 500;
 }
 
+nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #f6f8fa;
+  padding: 10px 0;
+  align-items: center;
+  z-index: 999;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 .photo {
   width: 264px;
   height: 264px;
@@ -44,7 +62,7 @@ body {
 }
 
 .header {
-  padding-top: 25px;
+  padding-top: 35px;
 }
 
 .personal-info {
@@ -98,15 +116,21 @@ section.no-divider::after {
   display: none;
 }
 
-p.with-icon {
+section.contact ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li.with-icon {
   padding-left: 55px;
 }
 
-p.with-icon:not(:last-child) {
+li.with-icon:not(:last-child) {
   margin-bottom: 8px;
 }
 
-p.with-icon::before {
+li.with-icon::before {
   content: "";
   position: absolute;
   left: 0;
@@ -114,14 +138,14 @@ p.with-icon::before {
   width: 32px;
 }
 
-p.icon-phone::before {
+li.icon-phone::before {
   content: url(../images/phone.svg);
 }
 
-p.icon-mail::before {
+li.icon-mail::before {
   content: url(../images/mail.svg);
 }
-p.icon-linkedin::before {
+li.icon-linkedin::before {
   content: url(../images/linkedin.svg);
 }
 
