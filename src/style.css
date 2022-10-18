@@ -51,10 +51,17 @@ nav ul {
   height: 264px;
   border-radius: 50%;
   overflow: hidden;
-  background-image: url(../images/my-photo.jpg);
-  background-position: center;
-  background-size: cover;
   margin: 0 auto;
+  position: relative;
+}
+
+.photo img {
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .photo h2 {
